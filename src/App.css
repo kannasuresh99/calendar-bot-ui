@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.chat-interface {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  background-color: #f4f4f4;
+}
+
+.messages-list {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.input-field {
+  display: flex;
+}
+
+input[type='text'] {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+}
